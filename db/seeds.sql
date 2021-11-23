@@ -18,15 +18,3 @@ VALUES ("Jeremiah", "Quill", 4, NULL),
        ("Meghan", "Quill", 5, 1),
        ("Remi", "Quill", 2, NULL);
 
-
-
-
-SELECT
-    employee.id, employee.first_name, employee.last_name, role.title, department.department_name AS department, role.salary, CONCAT(manager.first_name, " ", manager.last_name) AS manager
-    FROM employee
-    JOIN role ON employee.role_id = role.id
-    JOIN department ON role.department_id = department.id
-    JOIN (SELECT emp.id AS emp_id, emp.manager_id, mgr.first_name, mgr.last_name FROM employee emp LEFT JOIN employee mgr ON emp.manager_id = mgr.id) manager ON employee.id = manager.emp_id
-
-
-

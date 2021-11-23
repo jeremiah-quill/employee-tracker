@@ -30,9 +30,5 @@ CREATE TABLE employee (
     FOREIGN KEY (manager_id)
     REFERENCES employee(id)
     ON DELETE SET NULL
-    -- CONSTRAINT manager 
-    -- FOREIGN KEY (manager_id) 
-    -- REFERENCES employee(employee_id)
 )
 
--- employee ids, first names, last names, job titles, departments, salaries, and managers that the employees report to
