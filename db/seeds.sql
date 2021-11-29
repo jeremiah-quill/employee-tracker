@@ -15,6 +15,6 @@ VALUES ("CPA", 75000, 1),
 
 INSERT INTO employee (first_name, last_name, role_id, manager_id)
 VALUES ("Jeremiah", "Quill", 4, NULL),
-       ("Meghan", "Quill", 5, 1),
-       ("Remi", "Quill", 2, NULL);
+       ("John", "Appleseed", 5, 1),
+       ("Tom", "Brady", 2, NULL);
 
