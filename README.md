@@ -5,7 +5,9 @@
 ## Description
 
 ​
-A CLI tool for tracking employees within an organization. Customize departments, roles, employees, and management levels, and have all changes saved to a SQL database.
+A CLI tool for tracking employees within an organization. Please see the following for a video demo:
+
+https://youtu.be/91975yaz3JM
 ​
 
 ## Table of Contents
